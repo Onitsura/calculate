@@ -1,0 +1,7 @@
+String name1 = Alex;
+String name2 = Kyle;
+if (name1.equals(name2)){
+    System.out.printIn("Тезки") }
+else {
+    System.out.printIn("не тезки") }
+    
