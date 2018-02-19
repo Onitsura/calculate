@@ -1,31 +1,28 @@
 Дано число месяца (тип int). Необходимо определить время года (зима, весна, лето, осень) и вывести на консоль.
 
 int month = 3;
-String PartOfYear;
+
+if month >= 13 && month <=0 {
+System.out.printIn("Неверное число, повторите ввод");
+}
+
+public void show(){
+System.out.printIn()
+}
+
 switch (month) {
-case 1: PartOfYear = "Winter";
-    break;
-case 2: PartOfYear = "Winter";
-    break;
-case 3: PartOfYear = "Spring";
-    break;
-case 4: PartOfYear = "Spring";
-    break;
-case 5: PartOfYear = "Spring";
-    break;
-case 6: PartOfYear = "Summer";
-    break;
-case 7: PartOfYear = "Summer";
-    break;
-case 8: PartOfYear = "Summer";
-    break;
-case 9: PartOfYear = "Autumn";
-    break;
-case 10: PartOfYear = "Autumn";
-    break;
-case 11: PartOfYear = "Autumn";
-    break;
-case 12: PartOfYear = "Winter";
-    break;
-    }
-System.out.print(PartOfYear);
+case month >= 12 && month <= 2: 
+show ("Winter");
+break;
+
+case month >=3 && month <= 5:
+show ("Spring");
+break;
+
+case month >=6 && month <= 8:
+show ("Summer");
+break;
+
+default:
+show ("Autumn");
+break;
