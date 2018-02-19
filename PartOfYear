@@ -1,6 +1,6 @@
 int month = 3;
 String PartOfYear;
-switch (day) {
+switch (month) {
 case 1: PartOfYear = "Winter";
     break;
 case 2: PartOfYear = "Winter";
