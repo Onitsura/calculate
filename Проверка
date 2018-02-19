@@ -1,0 +1,25 @@
+Пользователь проходит процесс регистрации. Вводит логин и пароль и подтверждение пароля для входа.
+Цель: проверить его входные данные, если его:
+Логин должен быть не менее 5 символов и без пробелов
+Пароль не должен быть пустым, содержать не менее 5 символов и заканчиваться цифрой
+Повтор пароля должен быть идентичен паролю.
+Если все условия выполнены-вывести все элементы ввода через символ # и в верхнем регистре. NAME#PASS#CONFIRM.
+
+public class MyClass(){
+
+public void checkLogin(String login){
+  int a = login.length();
+  if (a >= 5){
+      if (login.contains(" ")){
+    System.out.printIn("Login must do not exist spaces");
+   }
+   }
+      else {
+    System.out.printIn(login.trim().toUpperCase());
+   }
+  else {
+  System.out.printIn("Need 5 or more symbols")
+  }
+  }
+  
+  
