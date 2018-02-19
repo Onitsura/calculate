@@ -1,0 +1,29 @@
+int month = 3;
+String PartOfYear;
+switch (day) {
+case 1: PartOfYear = "Winter";
+    break;
+case 2: PartOfYear = "Winter";
+    break;
+case 3: PartOfYear = "Spring";
+    break;
+case 4: PartOfYear = "Spring";
+    break;
+case 5: PartOfYear = "Spring";
+    break;
+case 6: PartOfYear = "Summer";
+    break;
+case 7: PartOfYear = "Summer";
+    break;
+case 8: PartOfYear = "Summer";
+    break;
+case 9: PartOfYear = "Autumn";
+    break;
+case 10: PartOfYear = "Autumn";
+    break;
+case 11: PartOfYear = "Autumn";
+    break;
+case 12: PartOfYear = "Winter";
+    break;
+    }
+System.out.print(PartOfYear);
