@@ -18,7 +18,7 @@ public void checkLogin(String login){
     System.out.printIn(login.trim().toUpperCase());
    }
   else {
-  System.out.printIn("Need 5 or more symbols")
+  System.out.printIn("Need 5 or more symbols");
   }
   }
   
