@@ -2,9 +2,10 @@
 
 int month = 3;
 
-if month >= 13 && month <=0 {
+if (month >= 13 && month <=0) {
 System.out.printIn("Неверное число, повторите ввод");
 }
+break;
 
 public void show(){
 System.out.printIn()
