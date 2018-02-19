@@ -7,19 +7,46 @@
 
 public class MyClass(){
 
-public void checkLogin(String login){
-  int a = login.length();
-  if (a >= 5){
-      if (login.contains(" ")){
-    System.out.printIn("Login must do not exist spaces");
-   }
-   }
-      else {
-    System.out.printIn(login.trim().toUpperCase());
-   }
-  else {
-  System.out.printIn("Need 5 or more symbols");
+//Проверка на длину логина
+
+public void checkLength(String login){
+  boolean a = false;
+  int length = login.length();
+  if (length >= 5){
+  a = true;
+  }else {
+  show("Need 5 or more symbols");
+    }
+ }
+  
+  //Проверка на пробелы в логине
+  
+  public void checkSpaces(String login){
+     boolean b = false;
+     if (login.contains(" ")){
+    show("Login must do not exist spaces");
+     }else {
+    b = true;
+       }
+  }
+  
+  //Проверка на выполнение условий
+  
+  public void checkLogin(String login){
+  
+  if(checkLength(String login)){
+  show()
   }
   }
+  
+  
+  
+  private void show(String result){
+  }
+  
+  
+  //Проверка пароля
+  
+  public void checkPass(String password){
   
   
