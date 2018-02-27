@@ -5,39 +5,51 @@
 Повтор пароля должен быть идентичен паролю.
 Если все условия выполнены-вывести все элементы ввода через символ # и в верхнем регистре. NAME#PASS#CONFIRM.
 
-public class MyClass(){
+        public class MyClass () {
 
 //Проверка на длину логина
 
-public void checkLength(String login){
-  boolean a = false;
-  int length = login.length();
-  if (length >= 5){
-  a = true;
-  }else {
-  show("Need 5 or more symbols");
-    }
- }
-  
-  //Проверка на пробелы в логине
-  
-  public void checkSpaces(String login){
-     boolean b = false;
-     if (login.contains(" ")){
-    show("Login must do not exist spaces");
-     }else {
-    b = true;
-       }
-  }
-  
-  //Проверка на выполнение условий
-  
-  public void checkLogin(String login){
-  
-  if(checkLength(String login)){
-  show()
-  }
-  }
+            public void checkLength (String login){
+                boolean a = false;
+                int length = login.length();
+                if (length >= 5) {
+                    a = true;
+                } else {
+                    show("Need 5 or more symbols");
+                }
+            }
+
+            //Проверка на пробелы в логине
+
+        public void checkSpaces (String login){
+            boolean b = false;
+            if (login.contains(" ")) {
+                show("Login must do not exist spaces");
+            } else {
+                b = true;
+            }
+        }
+
+        //Проверка на выполнение условий
+
+        public void checkLogin (String login){
+
+            if (checkLength(String login)) {
+                show()
+            }
+        }
+
+
+        private void show (String result){
+        }
+
+
+        //Проверка пароля
+
+        public void checkPass (String password){
+
+
+        }
   
   
   
